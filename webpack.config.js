@@ -16,6 +16,7 @@ module.exports = {
         {
           test: /index.html$/i,
           use: [
+            {
             loader: 'file-loader',
             options: {
               name: 'index.html'
