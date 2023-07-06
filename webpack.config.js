@@ -20,12 +20,12 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: 'index.html'
+              }
             }
-          }
-        ]
-      }
-    ]
-  },
+          ]
+        }
+      ]
+    },
   plugins: [
     new CleanWebpackPlugin()
   ]
