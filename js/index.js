@@ -1,8 +1,10 @@
-import getDateString from './date';
-import $ from 'jquery';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import getDateString from './date.js';
 import '../styles/styles.css';
+import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+import '../index.html';
+
 
 $(document).ready( () => {
     // Print the current time
